@@ -8,7 +8,7 @@ if(isset($_POST['submit']))
         header('location:abcd.php');
     }
     else{
-        echo "wrong credentials";
+        echo "wrong otp";
     }
 }
 ?>
