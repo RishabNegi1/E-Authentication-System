@@ -5,7 +5,7 @@ if(isset($_POST['submit']))
 {
     if($_SESSION['otp']==$sotp)
     {
-        header('location:abcd.php');
+        header('location:Warning.php');
     }
     else{
         echo "wrong otp";
